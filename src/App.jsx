@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route,   } from "react-router-dom";
 import {Toaster} from "sonner"
 import Home from "./(pages)/public-page/Home/home";
-import SignUp from "./(pages)/public-page/(auth)/Signup/Signup";
-import SignIn from "./(pages)/public-page/(auth)/login/Signin";
+import SignUp from "./(pages)/public-page/auth/Signup/Signup";
+import SignIn from "./(pages)/public-page/auth/login/Signin";
 import AuthProvider from "./contexts/AuthContext";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
