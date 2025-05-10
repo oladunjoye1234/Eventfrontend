@@ -1,20 +1,20 @@
 import { BrowserRouter, Routes, Route,   } from "react-router-dom";
 import {Toaster} from "sonner"
-import Home from "./(pages)/public-page/Home/home";
-import SignUp from "./(pages)/public-page/auth/Signup/Signup";
-import SignIn from "./(pages)/public-page/auth/login/Signin";
+import Home from "./pages/public-page/Home/home";
+import SignUp from "./pages/public-page/auth/Signup/Signup";
+import SignIn from "./pages/public-page/auth/login/Signin";
 import AuthProvider from "./contexts/AuthContext";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
-import Event from "./(pages)/private-page/Events/events";
-import EventDetails from "./(pages)/private-page/Events/eventDetails";
-import CreateEvent from "./(pages)/private-page/Createevent/createEvent";
-import ManageEvent from "./(pages)/private-page/ManageEvent/manageEvent";
-import ManageTickets from "./(pages)/private-page/ManageTickets/tickets";
+import Event from "./pages/private-page/Events/events";
+import EventDetails from "./pages/private-page/Events/eventDetails";
+import CreateEvent from "./pages/private-page/Createevent/createEvent";
+import ManageEvent from "./pages/private-page/ManageEvent/manageEvent";
+import ManageTickets from "./pages/private-page/ManageTickets/tickets";
 import PageNotFound from "./components/common/PageNotFound";
 // import { useAuthContext } from "../../../contexts/AuthContext";
-import Profile from "./(pages)/private-page/Profile/profile";
-import Dashboard from "./(pages)/private-page/Dashboard/dashboard";
+import Profile from "./pages/private-page/Profile/profile";
+import Dashboard from "./pages/private-page/Dashboard/dashboard";
 
 
 

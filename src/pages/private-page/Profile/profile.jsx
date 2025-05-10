@@ -1,7 +1,7 @@
 import React,  {useState} from 'react';
 import { useAuthContext } from '../../../contexts/AuthContext';
 import { Navigate, useNavigate } from 'react-router-dom';
-import UpadateProfile from '../../../(pages)/private-page/Profile/UpdateProfile';
+import UpadateProfile from '../../../pages/private-page/Profile/UpdateProfile';
 import { toast } from 'sonner';
 import {motion, AnimatePresence} from 'framer-motion'
 import { useEffect } from 'react';
